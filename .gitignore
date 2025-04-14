@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore models and model weights
+*.ckpt
+*.safetensors
+*.pth
+
+# Ignore large output files
+/output/
+
+# Ignore Docker-related files (if not needed)
+docker-compose.yml
+Dockerfile
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden files/folders that could be large
+*/.git/
+
+# Ignore other heavy files
+*.tar.gz
+*.zip
+*.tar
+*.rar
